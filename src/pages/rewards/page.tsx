@@ -205,7 +205,7 @@ export default function Rewards() {
 
                   <div className="mb-4">
                     <img
-                      src={`https://readdy.ai/api/search-image?query=$%7Breward.image%7D&width=300&height=200&seq=reward${reward.id}&orientation=landscape`}
+                      src="/ruble.png"
                       alt={reward.title}
                       className="w-full h-40 object-cover object-top rounded-lg"
                     />
